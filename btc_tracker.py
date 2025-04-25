@@ -3,7 +3,7 @@ import sqlite3
 from dotenv import load_dotenv
 import os
 
-load_dotenv("btc_tracker.env")
+load_dotenv("env/btc_tracker.env")
 btc_tracker_api_key = os.environ.get('BTC_TRACKER_API_KEY')
 
 if not btc_tracker_api_key:
